@@ -30,7 +30,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FFFAFA; 
+    background-color: #FFFAFA; /* Snow color for the main background */
   }
 
   .content {
