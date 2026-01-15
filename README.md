@@ -1,107 +1,84 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
+🧘🏻‍♀️ Kokoro – Wellness & Self-Care App
 
----
+Kokoro is a user-centered wellness application designed to help users reflect on their emotions, practice gratitude, and track self-care goals in a simple, calming interface.
 
-# svelte app
+The app focuses on mental well-being through daily reflection, combining thoughtful UI design with interactive features that make self-care approachable and consistent.
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+✨ Features
+😊 Mood Tracker
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+Users can log their current mood using intuitive emoji-based selection
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+Designed for quick emotional check-ins without friction
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+📝 Gratitude Journal
 
+Daily prompts to list three things you’re grateful for
 
-## Get started
+Encourages positive reflection and mindfulness
 
-Install the dependencies...
+🎯 Self-Care Goals
 
-```bash
-cd svelte-app
-npm install
-```
+Add and manage personal self-care goals
 
-...then start [Rollup](https://rollupjs.org):
+Track progress and completion status
 
-```bash
-npm run dev
-```
+Visual feedback on goals completed vs pending
 
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+🪞 Daily Reflection Dashboard
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+Summarizes:
 
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
+Gratitude entries
 
-## Building and running in production mode
+Self-care goals completion
 
-To create an optimised version of the app:
+Provides a quick snapshot of daily well-being
 
-```bash
-npm run build
-```
+📓 Journal Entries
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+Free-form journaling space for thoughts and reflections
 
+Designed for clarity and ease of use
 
-## Single-page app mode
+🎨 Design Philosophy
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+Soft color palette to create a calm, welcoming experience
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+Clear visual hierarchy to reduce cognitive load
 
-```js
-"start": "sirv public --single"
-```
+Minimal interactions to encourage daily use
 
-## Using TypeScript
+Focused on accessibility, readability, and emotional comfort
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+🛠 Tech Stack
 
-```bash
-node scripts/setupTypeScript.js
-```
+Frontend: Svelte
 
-Or remove the script via:
+Backend: Node.js, Express
 
-```bash
-rm scripts/setupTypeScript.js
-```
+Visualization: Chart.js
 
-If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
+Styling: HTML, CSS (custom UI components)
 
-## Deploying to the web
+🧠 What I Learned
 
-### With [Vercel](https://vercel.com)
+Designing interfaces for emotional and mental well-being
 
-Install `vercel` if you haven't already:
+Translating abstract wellness concepts into practical UI components
 
-```bash
-npm install -g vercel
-```
+Building interactive features that prioritize usability over complexity
 
-Then, from within your project folder:
+Balancing frontend interactivity with clean, maintainable logic
 
-```bash
-cd public
-vercel deploy --name my-project
-```
+🚀 Future Improvements
 
-### With [surge](https://surge.sh/)
+User authentication & profiles
 
-Install `surge` if you haven't already:
+Data persistence using a database
 
-```bash
-npm install -g surge
-```
+Mood and goal analytics over time
 
-Then, from within your project folder:
+Mobile-first optimization
 
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+Accessibility enhancements (ARIA, keyboard navigation)
